@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
-    "build": "next build",
-    "serve": "next start",
-    "export": "next export",
-    "postbuild": "next-sitemap"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.2.6",
@@ -26,6 +27,7 @@
     "react-icons": "^3.9.0",
     "react-id-swiper": "^4.0.0",
     "react-modal-video": "1.2.6",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.0",
     "react-stickynode": "^3.0.3",
     "react-waypoint": "^9.0.2",
