@@ -3,13 +3,12 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-    },
+        "dev": "next dev",
+        "build": "next build",
+        "serve": "next start",
+        "export": "next export",
+        "postbuild": "next-sitemap"
+      },
     "dependencies": {
       "@react-navigation/stack": "^6.3.16",
       "@sendgrid/mail": "^7.2.6",
@@ -57,5 +56,8 @@
         "last 1 firefox version",
         "last 1 safari version"
       ]
-    }
+    },
+    "engines": {
+        "node": "16.X"
+      }
   }
