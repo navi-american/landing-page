@@ -31,10 +31,10 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.0",
     "react-stickynode": "^4.1.0",
-    "react-waypoint": "^9.0.2",
-    "swiper": "^6.3.1",
+    "react-waypoint": "^10.3.0",
+    "swiper": "^9.1.0",
     "theme-ui": "^0.3.1",
-    "typeface-dm-sans": "^1.1.3",
+    "typeface-dm-sans": "^1.1.13",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
