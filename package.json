@@ -11,6 +11,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@react-navigation/stack": "^6.3.16",
     "@sendgrid/mail": "^7.2.6",
     "dotenv": "^8.2.0",
     "eslint-config-next": "^13.2.1",
@@ -22,7 +23,7 @@
     "next-optimized-images": "^2.5.5",
     "rc-drawer": "^4.1.0",
     "react": "^18.2.0",
-    "react-custom-scrollbars": "^4.2.1",
+    "react-custom-scrollbars-2": "^4.5.0",
     "react-dom": "^18.2.0",
     "react-icons": "^3.9.0",
     "react-id-swiper": "^4.0.0",
@@ -41,7 +42,9 @@
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
     "next-sitemap": "^1.2.4",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "browserslist": {
     "production": [
