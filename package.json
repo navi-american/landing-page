@@ -1,43 +1,61 @@
 {
-  "name": "@landing/006-next",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "serve": "next start",
-    "export": "next export",
-    "postbuild": "next-sitemap"
-  },
-  "dependencies": {
-    "@sendgrid/mail": "^7.2.6",
-    "dotenv": "^8.2.0",
-    "framer-motion": "^2.7.5",
-    "globby": "^11.0.0",
-    "isomorphic-unfetch": "^3.0.0",
-    "next": "9.5.3",
-    "next-compose-plugins": "^2.2.0",
-    "next-optimized-images": "^2.5.5",
-    "rc-drawer": "^4.1.0",
-    "react": "16.13.1",
-    "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "16.13.1",
-    "react-ga": "^3.1.2",
-    "react-icons": "^3.9.0",
-    "react-id-swiper": "^4.0.0",
-    "react-modal-video": "1.2.6",
-    "react-scroll": "^1.8.0",
-    "react-stickynode": "^3.0.3",
-    "react-waypoint": "^9.0.2",
-    "swiper": "^6.3.1",
-    "theme-ui": "^0.3.1",
-    "typeface-dm-sans": "^1.1.3"
-  },
-  "devDependencies": {
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
-    "prettier": "^2.1.2",
-    "next-sitemap": "^1.2.4"
+    "name": "NaviAmerican",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "@react-navigation/stack": "^6.3.16",
+      "@sendgrid/mail": "^7.2.6",
+      "dotenv": "^8.2.0",
+      "eslint-config-next": "^13.2.1",
+      "framer-motion": "^2.7.5",
+      "globby": "^11.0.0",
+      "isomorphic-unfetch": "^3.0.0",
+      "next": "^13.2.1",
+      "next-compose-plugins": "^2.2.0",
+      "next-optimized-images": "^2.5.5",
+      "rc-drawer": "^4.1.0",
+      "react": "^18.2.0",
+      "react-custom-scrollbars-2": "^4.5.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^3.9.0",
+      "react-id-swiper": "^4.0.0",
+      "react-modal-video": "^2.0.0",
+      "react-scripts": "5.0.1",
+      "react-scroll": "^1.8.0",
+      "react-stickynode": "^4.1.0",
+      "react-waypoint": "^10.3.0",
+      "swiper": "^9.1.0",
+      "theme-ui": "^0.3.1",
+      "typeface-dm-sans": "^1.1.13",
+      "web-vitals": "^2.1.4"
+    },
+    "devDependencies": {
+      "imagemin-mozjpeg": "^9.0.0",
+      "imagemin-optipng": "^8.0.0",
+      "imagemin-svgo": "^8.0.0",
+      "next-sitemap": "^1.2.4",
+      "prettier": "^2.1.2",
+      "webpack": "^5.75.0",
+      "webpack-dev-server": "^4.11.1"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
   }
-}
