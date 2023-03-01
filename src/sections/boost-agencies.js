@@ -16,25 +16,25 @@ const BoostAgencies = () => {
             <Box sx={styles.content}>
               <Box sx={styles.titleBox}>
                 <Heading as="h3">
-                  Boost your agencies by choosing Ninja Developers
+                  Get free cost estimates.
                 </Heading>
                 <Text as="p">
-                  Create custom landing pages with Shades that convert more
-                  visitors than any website, no coding required.
+                  We analyzed millions of bids from professionals across North America to determine the true cost of projects. 
+                  Discover what others have paid for similar projects and make informed decisions.
                 </Text>
               </Box>
               <Box as="ul" sx={styles.list}>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Unlimited design possibility
+                  Budget with a few clicks
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Completely responsive features
+                  You pay nothing for the budget.
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Easy to customize plugins
+                  We connect you to thousands of professionals.
                 </Text>
               </Box>
               <Link path="/" sx={styles.link}>

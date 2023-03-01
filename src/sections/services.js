@@ -11,27 +11,27 @@ import icon4 from 'assets/icons/service-1-4.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Unlimited Customization',
+    title: 'Standard cleaning',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Standard cleaning involves regular maintenance, such as dusting, vacuuming, and wiping surfaces, to keep a space clean and healthy.',
   },
   {
     icon: icon2,
-    title: 'Vector shape & resizable',
+    title: 'Deep cleaning',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Deep cleaning is a thorough and intensive cleaning process that goes beyond standard cleaning, targeting hard-to-reach areas and removing dirt and grime buildup.',
   },
   {
     icon: icon3,
-    title: 'Editing freedom',
+    title: 'Move out cleaning',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Move out cleaning refers to the deep cleaning of a space before moving out, ensuring that the area is left spotless and ready for the next occupant.',
   },
   {
     icon: icon4,
-    title: 'Best Award history',
+    title: 'Extra services',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Window cleaning (interior), Fridge cleaning, Oven cleaning and Laundry.',
   },
 ];
 
@@ -40,8 +40,8 @@ const Services = () => {
     <Box sx={styles.services} id="services">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Services"
+          title="Meet our services"
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>
