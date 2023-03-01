@@ -19,7 +19,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 006" />
+          <SEO title="Navi American" />
           <Banner />
           <Services />
           <BoostAgencies />
