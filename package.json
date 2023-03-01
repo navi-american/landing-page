@@ -10,6 +10,7 @@
         "postbuild": "next-sitemap"
     },
     "dependencies": {
+        "@emotion/core": "^10.1.1",
         "@react-navigation/stack": "^6.3.16",
         "@sendgrid/mail": "^7.2.6",
         "dotenv": "^8.2.0",
