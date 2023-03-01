@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Flex, Button, Box } from 'theme-ui';
-import { keyframes } from '@emotion/core';
+import { Container, Flex, Button, Box } from 'theme-ui';
+import { jsx, keyframes } from '@emotion/react';
 import { IoIosUnlock } from 'react-icons/io';
 import { NavLink, Link } from 'components/link';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';

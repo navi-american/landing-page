@@ -1,13 +1,8 @@
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  /* config options here */
+}
 
-const nextConfiguration = {
-  target: 'serverless', //will output independent pages that don't require a monolithic server. It's only compatible with next start or Serverless deployment platforms (like ZEIT Now) — you cannot use the custom server API.
-};
-
-module.exports = {
-  // Prefer loading of ES Modules over CommonJS
-  experimental: { esmExternals: true }
-};
-
-module.exports = withPlugins([optimizedImages], nextConfiguration);
+module.exports = nextConfig
